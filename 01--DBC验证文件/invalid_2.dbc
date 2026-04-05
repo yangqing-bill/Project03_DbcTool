@@ -1,0 +1,5 @@
+VERSION ""
+
+BO_ 100 EngineData: 8 Vector__XXX
+ SG_ EngineSpeed : 0|16@1+ (0.1,0 [0|8000] "rpm" Vector__XXX
+ SG_ EngineTemp : 16|8@1+ (1,-40) [-40|215] "degC" Vector__XXX

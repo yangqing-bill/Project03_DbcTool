@@ -1,0 +1,679 @@
+VERSION ""
+
+
+NS_ :
+  CM_
+  BA_DEF_
+  BA_
+  VAL_
+  BA_DEF_DEF_
+  SIG_VALTYPE_
+
+BS_:
+
+BU_: Vector__XXX
+
+
+BO_ 2650804224 RTC: 8 Vector__XXX
+SG_ Seconds : 7|64@0+ (0.001,0) [0|1.84467440737096E016] "" Vector__XXX
+
+BO_ 2650820608 RPM: 8 Vector__XXX
+SG_ RPM : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2650836992 FUEL_INJ_PW: 8 Vector__XXX
+SG_ FUEL_INJ_PW : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2650853376 FUEL_DUTY_CYCLE: 8 Vector__XXX
+SG_ FUEL_DUTY_CYCLE : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2650869760 FUEL_CLOSED_LOOP_COMP: 8 Vector__XXX
+SG_ FUEL_CLOSED_LOOP_COMP : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2650886144 FUEL_TARGET_AFR: 8 Vector__XXX
+SG_ FUEL_TARGET_AFR : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2650902528 FUEL_AFR_LEFT: 8 Vector__XXX
+SG_ FUEL_AFR_LEFT : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2650951680 FUEL_AIR_TEMP_ENRICH: 8 Vector__XXX
+SG_ FUEL_AIR_TEMP_ENRICH : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2650968064 FUEL_COOLANT_ENRICH: 8 Vector__XXX
+SG_ FUEL_COOLANT_ENRICH : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2650984448 FUEL_COOLANT_AFR_OFFSET: 8 Vector__XXX
+SG_ FUEL_COOLANT_AFR_OFFSET : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651000832 FUEL_AFTERSTART_ENRICH: 8 Vector__XXX
+SG_ FUEL_AFTERSTART_ENRICH : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651017216 FUEL_CURRENT_LEARN_PERCENT: 8 Vector__XXX
+SG_ FUEL_CURRENT_LEARN_PERCENT : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651033600 FUEL_CLOSED_LOOP_STATUS: 8 Vector__XXX
+SG_ FUEL_CLOSED_LOOP_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651049984 FUEL_LEARN_STATUS: 8 Vector__XXX
+SG_ FUEL_LEARN_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651082752 FUEL_FLOW: 8 Vector__XXX
+SG_ FUEL_FLOW : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651099136 FUEL_MAP_ROC: 8 Vector__XXX
+SG_ FUEL_MAP_ROC : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651115520 FUEL_TPS_ROC: 8 Vector__XXX
+SG_ FUEL_TPS_ROC : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651148288 ESTIMATED_VE: 8 Vector__XXX
+SG_ ESTIMATED_VE : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651164672 SPARK_IGNITION_TIMING: 8 Vector__XXX
+SG_ SPARK_IGNITION_TIMING : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651230208 IDLE_IAC_POS: 8 Vector__XXX
+SG_ IDLE_IAC_POS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651262976 SENSOR_MAP: 8 Vector__XXX
+SG_ SENSOR_MAP : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651279360 SENSOR_TPS: 8 Vector__XXX
+SG_ SENSOR_TPS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651295744 SENSOR_MAT: 8 Vector__XXX
+SG_ SENSOR_MAT : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651312128 SENSOR_CTS: 8 Vector__XXX
+SG_ SENSOR_CTS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651344896 SENSOR_BATT_VOLT: 8 Vector__XXX
+SG_ SENSOR_BATT_VOLT : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651410432 SYSTEM_REV_LIMIT_MAIN_STATUS: 8 Vector__XXX
+SG_ SYSTEM_REV_LIMIT_MAIN_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651426816 SYSTEM_REV_LIMIT1_STATUS: 8 Vector__XXX
+SG_ SYSTEM_REV_LIMIT1_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651459584 SYSTEM_AC_KICK_STATUS: 8 Vector__XXX
+SG_ SYSTEM_AC_KICK_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651475968 SYSTEM_TIMING_RETARD1: 8 Vector__XXX
+SG_ SYSTEM_TIMING_RETARD1 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651525120 SYSTEM_FAN1_STATUS: 8 Vector__XXX
+SG_ SYSTEM_FAN1_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651541504 SYSTEM_FAN2_STATUS: 8 Vector__XXX
+SG_ SYSTEM_FAN2_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651557888 SYSTEM_FUEL_PUMP2_STATUS: 8 Vector__XXX
+SG_ SYSTEM_FUEL_PUMP2_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651574272 SYSTEM_AC_SHUTDOWN_STATUS: 8 Vector__XXX
+SG_ SYSTEM_AC_SHUTDOWN_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651590656 SYSTEM_LOCKUP_STATUS: 8 Vector__XXX
+SG_ SYSTEM_LOCKUP_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651607040 SYSTEM_SENSOR_WARNING: 8 Vector__XXX
+SG_ SYSTEM_SENSOR_WARNING : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651623424 SYSTEM_SENSOR_CAUTION: 8 Vector__XXX
+SG_ SYSTEM_SENSOR_CAUTION : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651639808 SYSTEM_BASE_FUEL_LB: 8 Vector__XXX
+SG_ SYSTEM_BASE_FUEL_LB : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651656192 SYSTEM_BASE_FUEL_VE: 8 Vector__XXX
+SG_ SYSTEM_BASE_FUEL_VE : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651672576 SYSTEM_BASE_TIMING: 8 Vector__XXX
+SG_ SYSTEM_BASE_TIMING : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651688960 SYSTEM_BASE_TAFR: 8 Vector__XXX
+SG_ SYSTEM_BASE_TAFR : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651705344 SYSTEM_BASE_IGN_DWELL: 8 Vector__XXX
+SG_ SYSTEM_BASE_IGN_DWELL : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651721728 SYSTEM_VOL_COMP_IGN_DWELL: 8 Vector__XXX
+SG_ SYSTEM_VOL_COMP_IGN_DWELL : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651770880 SYSTEM_TIMING_AIR_TEMP: 8 Vector__XXX
+SG_ SYSTEM_TIMING_AIR_TEMP : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651787264 SYSTEM_TIMING_COOLANT_TEMP: 8 Vector__XXX
+SG_ SYSTEM_TIMING_COOLANT_TEMP : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651803648 SYSTEM_STATUS1: 8 Vector__XXX
+SG_ SYSTEM_STATUS1 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651820032 SYSTEM_STATUS2: 8 Vector__XXX
+SG_ SYSTEM_STATUS2 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651836416 SYSTEM_STATUS3: 8 Vector__XXX
+SG_ SYSTEM_STATUS3 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651852800 SYSTEM_STATUS4: 8 Vector__XXX
+SG_ SYSTEM_STATUS4 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651869184 SYSTEM_STATUS5: 8 Vector__XXX
+SG_ SYSTEM_STATUS5 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651885568 SYSTEM_STATUS6: 8 Vector__XXX
+SG_ SYSTEM_STATUS6 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651901952 SYSTEM_STATUS7: 8 Vector__XXX
+SG_ SYSTEM_STATUS7 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2651918336 SYSTEM_STATUS8: 8 Vector__XXX
+SG_ SYSTEM_STATUS8 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2652868608 SYSTEM_BOOST_PSIG: 8 Vector__XXX
+SG_ SYSTEM_BOOST_PSIG : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2652999680 BOOST_TIME: 8 Vector__XXX
+SG_ BOOST_TIME : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2653016064 BOOST_TARGET_BOOST: 8 Vector__XXX
+SG_ BOOST_TARGET_BOOST : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2653032448 BOOST_TRANS_BRAKE_STATUS: 8 Vector__XXX
+SG_ BOOST_TRANS_BRAKE_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2653130752 BOOST_SOLENOID_DUTY: 8 Vector__XXX
+SG_ BOOST_SOLENOID_DUTY : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2653147136 BOOST_SAFETY: 8 Vector__XXX
+SG_ BOOST_SAFETY : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2653163520 BOOST_MASTER_ENABLE: 8 Vector__XXX
+SG_ BOOST_MASTER_ENABLE : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2653212672 BOOST_FILL_SOL_DC: 8 Vector__XXX
+SG_ BOOST_FILL_SOL_DC : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2653229056 BOOST_VENT_SOL_DC: 8 Vector__XXX
+SG_ BOOST_VENT_SOL_DC : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2653425664 NOS_STAGE1: 8 Vector__XXX
+SG_ NOS_STAGE1 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2653687808 NOS_ENABLED_STATUS: 8 Vector__XXX
+SG_ NOS_ENABLED_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2653704192 NOS_INPUT1_STATUS: 8 Vector__XXX
+SG_ NOS_INPUT1_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2653851648 NOS_LEAN_CUTOFF_STATUS: 8 Vector__XXX
+SG_ NOS_LEAN_CUTOFF_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2653868032 NOS_RICH_CUTOFF_STATUS: 8 Vector__XXX
+SG_ NOS_RICH_CUTOFF_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2653884416 NOS_RPM_CUTOFF_STATUS: 8 Vector__XXX
+SG_ NOS_RPM_CUTOFF_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2653900800 NOS_MAP_CUTOFF_STATUS: 8 Vector__XXX
+SG_ NOS_MAP_CUTOFF_STATUS : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2653933568 NOS_DRY_FUEL1: 8 Vector__XXX
+SG_ NOS_DRY_FUEL1 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654064640 NOS_TIMING_MOD1: 8 Vector__XXX
+SG_ NOS_TIMING_MOD1 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654195712 NOS_TIMER1: 8 Vector__XXX
+SG_ NOS_TIMER1 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654392320 TRANS_GEAR: 8 Vector__XXX
+SG_ TRANS_GEAR : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654408704 TRANS_SPEED: 8 Vector__XXX
+SG_ TRANS_SPEED : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654425088 TRANS_LINE_PRESSURE_PWM: 8 Vector__XXX
+SG_ TRANS_LINE_PRESSURE_PWM : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654441472 TRANS_INPUT_SHAFT_SPEED: 8 Vector__XXX
+SG_ TRANS_INPUT_SHAFT_SPEED : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654457856 TRANS_ACCUM_PRESSURE_PWM: 8 Vector__XXX
+SG_ TRANS_ACCUM_PRESSURE_PWM : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654474240 TRANS_TCC_DUTY_CYCLE: 8 Vector__XXX
+SG_ TRANS_TCC_DUTY_CYCLE : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654490624 TRANS_LINE_TEMP: 8 Vector__XXX
+SG_ TRANS_LINE_TEMP : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654523392 TRANS_MAN_US_INPUT: 8 Vector__XXX
+SG_ TRANS_MAN_US_INPUT : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654539776 TRANS_MAN_DS_INPUT: 8 Vector__XXX
+SG_ TRANS_MAN_DS_INPUT : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654556160 TRANS_AUTOMAN_INPUT: 8 Vector__XXX
+SG_ TRANS_AUTOMAN_INPUT : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654572544 TRANS_RANGE_SWITCH_POSITION: 8 Vector__XXX
+SG_ TRANS_RANGE_SWITCH_POSITION : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654769152 DIAGNOSTIC1: 8 Vector__XXX
+SG_ DIAGNOSTIC1 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654785536 DIAGNOSTIC2: 8 Vector__XXX
+SG_ DIAGNOSTIC2 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654801920 DIAGNOSTIC3: 8 Vector__XXX
+SG_ DIAGNOSTIC3 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654818304 DIAGNOSTIC4: 8 Vector__XXX
+SG_ DIAGNOSTIC4 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654834688 DIAGNOSTIC5: 8 Vector__XXX
+SG_ DIAGNOSTIC5 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654851072 DIAGNOSTIC6: 8 Vector__XXX
+SG_ DIAGNOSTIC6 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654867456 DIAGNOSTIC7: 8 Vector__XXX
+SG_ DIAGNOSTIC7 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654883840 DIAGNOSTIC8: 8 Vector__XXX
+SG_ DIAGNOSTIC8 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654900224 DIAGNOSTIC9: 8 Vector__XXX
+SG_ DIAGNOSTIC9 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654916608 DIAGNOSTIC10: 8 Vector__XXX
+SG_ DIAGNOSTIC10 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654932992 DIAGNOSTIC11: 8 Vector__XXX
+SG_ DIAGNOSTIC11 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654949376 DIAGNOSTIC12: 8 Vector__XXX
+SG_ DIAGNOSTIC12 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654965760 DIAGNOSTIC13: 8 Vector__XXX
+SG_ DIAGNOSTIC13 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654982144 DIAGNOSTIC14: 8 Vector__XXX
+SG_ DIAGNOSTIC14 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2654998528 DIAGNOSTIC15: 8 Vector__XXX
+SG_ DIAGNOSTIC15 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2655014912 DIAGNOSTIC16: 8 Vector__XXX
+SG_ DIAGNOSTIC16 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2655031296 DIAGNOSTIC17: 8 Vector__XXX
+SG_ DIAGNOSTIC17 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2655047680 DIAGNOSTIC18: 8 Vector__XXX
+SG_ DIAGNOSTIC18 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2655064064 DIAGNOSTIC19: 8 Vector__XXX
+SG_ DIAGNOSTIC19 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2655080448 DIAGNOSTIC20: 8 Vector__XXX
+SG_ DIAGNOSTIC20 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2655096832 ADV_LAUNCH_INPUT: 8 Vector__XXX
+SG_ ADV_LAUNCH_INPUT : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2655162368 ADV_AT_1D1: 8 Vector__XXX
+SG_ ADV_AT_1D1 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2655178752 ADV_AT_1D2: 8 Vector__XXX
+SG_ ADV_AT_1D2 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2655195136 ADV_AT_1D3: 8 Vector__XXX
+SG_ ADV_AT_1D3 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2655211520 ADV_AT_1D4: 8 Vector__XXX
+SG_ ADV_AT_1D4 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2655293440 ADV_AT_2D1: 8 Vector__XXX
+SG_ ADV_AT_2D1 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2655309824 ADV_AT_2D2: 8 Vector__XXX
+SG_ ADV_AT_2D2 : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2658963456 TRANS_LINEPRESSUREPSIACTUAL: 8 Vector__XXX
+SG_ TRANS_LINEPRESSUREPSIACTUAL : 7|32@0- (1,0) [-4294967295|4294967295] "" Vector__XXX
+SG_ Status : 63|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BA_DEF_  "BusType" STRING ;
+
+BA_DEF_DEF_  "BusType" "CAN";
+
+BA_ "BusType" "CAN";
+VAL_ 2650820608 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2650836992 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2650853376 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2650869760 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2650886144 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2650902528 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2650951680 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2650968064 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2650984448 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651000832 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651017216 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651033600 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651049984 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651082752 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651099136 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651115520 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651148288 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651164672 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651230208 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651262976 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651279360 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651295744 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651312128 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651344896 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651410432 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651426816 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651459584 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651475968 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651525120 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651541504 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651557888 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651574272 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651590656 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651607040 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651623424 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651639808 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651656192 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651672576 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651688960 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651705344 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651721728 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651770880 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651787264 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651803648 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651820032 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651836416 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651852800 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651869184 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651885568 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651901952 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2651918336 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2652868608 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2652999680 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2653016064 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2653032448 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2653130752 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2653147136 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2653163520 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2653212672 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2653229056 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2653425664 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2653687808 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2653704192 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2653851648 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2653868032 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2653884416 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2653900800 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2653933568 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654064640 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654195712 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654392320 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654408704 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654425088 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654441472 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654457856 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654474240 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654490624 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654523392 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654539776 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654556160 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654572544 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654769152 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654785536 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654801920 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654818304 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654834688 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654851072 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654867456 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654883840 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654900224 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654916608 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654932992 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654949376 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654965760 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654982144 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2654998528 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2655014912 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2655031296 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2655047680 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2655064064 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2655080448 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2655096832 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2655162368 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2655178752 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2655195136 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2655211520 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2655293440 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2655309824 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+VAL_ 2658963456 Status 0 "OK" 1 "Disabled" 2 "Initializing" 3 "Heating" 4 "WB_Active" 5 "Too Cold" 6 "Too Hot" 7 "Unplugged" 8 "Slow!" 9 "Uncal Yellow" 10 "Uncal Red" 11 "Replace" 12 "Disabled" 13 "Shorted" 14 "Open" 15 "Over Range" 16 "Under Range" 17 "Undefined" 18 "Error!" 19 "Low Error" 20 "High Error" 21 "Non Critical No LED" 27 "Critical Green LED" 32 "Stall!" 33 "Synchronized" 34 "Syncing" 35 "Error!" 36 "Error!" 37 "Uncalibrated" 38 "Open Loop" 39 "Closed Loop" 40 "Not Learn" 41 "Learning" 42 "Off" 43 "On" 44 "Not Rev Limiting" 45 "Rev Limit" 46 "No Cut Off" 47 "CutOff!" 48 "Off" 49 "Warning!" 50 "Caution!" 51 "No Timing modifier" 52 "Timing is being modified" 53 "Timing Value is being replaced" 54 "Acq Sat" 55 "No GPS" 56 "No Data" 22 "Non Critical Green LED" 23 "Non Critical Yellow LED" 24 "Non Critical Red LED" 25 "Non Critical Blue LED" 26 "Non Critical Grey LED" 28 "Critical Yellow LED" 29 "Critical Red LED" 30 "Critical Blue LED" 31 "Critical Grey LED";
+
+SIG_VALTYPE_ 2650820608 RPM : 1;
+SIG_VALTYPE_ 2650836992 FUEL_INJ_PW : 1;
+SIG_VALTYPE_ 2650853376 FUEL_DUTY_CYCLE : 1;
+SIG_VALTYPE_ 2650869760 FUEL_CLOSED_LOOP_COMP : 1;
+SIG_VALTYPE_ 2650886144 FUEL_TARGET_AFR : 1;
+SIG_VALTYPE_ 2650902528 FUEL_AFR_LEFT : 1;
+SIG_VALTYPE_ 2650951680 FUEL_AIR_TEMP_ENRICH : 1;
+SIG_VALTYPE_ 2650968064 FUEL_COOLANT_ENRICH : 1;
+SIG_VALTYPE_ 2650984448 FUEL_COOLANT_AFR_OFFSET : 1;
+SIG_VALTYPE_ 2651000832 FUEL_AFTERSTART_ENRICH : 1;
+SIG_VALTYPE_ 2651017216 FUEL_CURRENT_LEARN_PERCENT : 1;
+SIG_VALTYPE_ 2651033600 FUEL_CLOSED_LOOP_STATUS : 1;
+SIG_VALTYPE_ 2651049984 FUEL_LEARN_STATUS : 1;
+SIG_VALTYPE_ 2651082752 FUEL_FLOW : 1;
+SIG_VALTYPE_ 2651099136 FUEL_MAP_ROC : 1;
+SIG_VALTYPE_ 2651115520 FUEL_TPS_ROC : 1;
+SIG_VALTYPE_ 2651148288 ESTIMATED_VE : 1;
+SIG_VALTYPE_ 2651164672 SPARK_IGNITION_TIMING : 1;
+SIG_VALTYPE_ 2651230208 IDLE_IAC_POS : 1;
+SIG_VALTYPE_ 2651262976 SENSOR_MAP : 1;
+SIG_VALTYPE_ 2651279360 SENSOR_TPS : 1;
+SIG_VALTYPE_ 2651295744 SENSOR_MAT : 1;
+SIG_VALTYPE_ 2651312128 SENSOR_CTS : 1;
+SIG_VALTYPE_ 2651344896 SENSOR_BATT_VOLT : 1;
+SIG_VALTYPE_ 2651410432 SYSTEM_REV_LIMIT_MAIN_STATUS : 1;
+SIG_VALTYPE_ 2651426816 SYSTEM_REV_LIMIT1_STATUS : 1;
+SIG_VALTYPE_ 2651459584 SYSTEM_AC_KICK_STATUS : 1;
+SIG_VALTYPE_ 2651475968 SYSTEM_TIMING_RETARD1 : 1;
+SIG_VALTYPE_ 2651525120 SYSTEM_FAN1_STATUS : 1;
+SIG_VALTYPE_ 2651541504 SYSTEM_FAN2_STATUS : 1;
+SIG_VALTYPE_ 2651557888 SYSTEM_FUEL_PUMP2_STATUS : 1;
+SIG_VALTYPE_ 2651574272 SYSTEM_AC_SHUTDOWN_STATUS : 1;
+SIG_VALTYPE_ 2651590656 SYSTEM_LOCKUP_STATUS : 1;
+SIG_VALTYPE_ 2651607040 SYSTEM_SENSOR_WARNING : 1;
+SIG_VALTYPE_ 2651623424 SYSTEM_SENSOR_CAUTION : 1;
+SIG_VALTYPE_ 2651639808 SYSTEM_BASE_FUEL_LB : 1;
+SIG_VALTYPE_ 2651656192 SYSTEM_BASE_FUEL_VE : 1;
+SIG_VALTYPE_ 2651672576 SYSTEM_BASE_TIMING : 1;
+SIG_VALTYPE_ 2651688960 SYSTEM_BASE_TAFR : 1;
+SIG_VALTYPE_ 2651705344 SYSTEM_BASE_IGN_DWELL : 1;
+SIG_VALTYPE_ 2651721728 SYSTEM_VOL_COMP_IGN_DWELL : 1;
+SIG_VALTYPE_ 2651770880 SYSTEM_TIMING_AIR_TEMP : 1;
+SIG_VALTYPE_ 2651787264 SYSTEM_TIMING_COOLANT_TEMP : 1;
+SIG_VALTYPE_ 2651803648 SYSTEM_STATUS1 : 1;
+SIG_VALTYPE_ 2651820032 SYSTEM_STATUS2 : 1;
+SIG_VALTYPE_ 2651836416 SYSTEM_STATUS3 : 1;
+SIG_VALTYPE_ 2651852800 SYSTEM_STATUS4 : 1;
+SIG_VALTYPE_ 2651869184 SYSTEM_STATUS5 : 1;
+SIG_VALTYPE_ 2651885568 SYSTEM_STATUS6 : 1;
+SIG_VALTYPE_ 2651901952 SYSTEM_STATUS7 : 1;
+SIG_VALTYPE_ 2651918336 SYSTEM_STATUS8 : 1;
+SIG_VALTYPE_ 2652868608 SYSTEM_BOOST_PSIG : 1;
+SIG_VALTYPE_ 2652999680 BOOST_TIME : 1;
+SIG_VALTYPE_ 2653016064 BOOST_TARGET_BOOST : 1;
+SIG_VALTYPE_ 2653032448 BOOST_TRANS_BRAKE_STATUS : 1;
+SIG_VALTYPE_ 2653130752 BOOST_SOLENOID_DUTY : 1;
+SIG_VALTYPE_ 2653147136 BOOST_SAFETY : 1;
+SIG_VALTYPE_ 2653163520 BOOST_MASTER_ENABLE : 1;
+SIG_VALTYPE_ 2653212672 BOOST_FILL_SOL_DC : 1;
+SIG_VALTYPE_ 2653229056 BOOST_VENT_SOL_DC : 1;
+SIG_VALTYPE_ 2653425664 NOS_STAGE1 : 1;
+SIG_VALTYPE_ 2653687808 NOS_ENABLED_STATUS : 1;
+SIG_VALTYPE_ 2653704192 NOS_INPUT1_STATUS : 1;
+SIG_VALTYPE_ 2653851648 NOS_LEAN_CUTOFF_STATUS : 1;
+SIG_VALTYPE_ 2653868032 NOS_RICH_CUTOFF_STATUS : 1;
+SIG_VALTYPE_ 2653884416 NOS_RPM_CUTOFF_STATUS : 1;
+SIG_VALTYPE_ 2653900800 NOS_MAP_CUTOFF_STATUS : 1;
+SIG_VALTYPE_ 2653933568 NOS_DRY_FUEL1 : 1;
+SIG_VALTYPE_ 2654064640 NOS_TIMING_MOD1 : 1;
+SIG_VALTYPE_ 2654195712 NOS_TIMER1 : 1;
+SIG_VALTYPE_ 2654392320 TRANS_GEAR : 1;
+SIG_VALTYPE_ 2654408704 TRANS_SPEED : 1;
+SIG_VALTYPE_ 2654425088 TRANS_LINE_PRESSURE_PWM : 1;
+SIG_VALTYPE_ 2654441472 TRANS_INPUT_SHAFT_SPEED : 1;
+SIG_VALTYPE_ 2654457856 TRANS_ACCUM_PRESSURE_PWM : 1;
+SIG_VALTYPE_ 2654474240 TRANS_TCC_DUTY_CYCLE : 1;
+SIG_VALTYPE_ 2654490624 TRANS_LINE_TEMP : 1;
+SIG_VALTYPE_ 2654523392 TRANS_MAN_US_INPUT : 1;
+SIG_VALTYPE_ 2654539776 TRANS_MAN_DS_INPUT : 1;
+SIG_VALTYPE_ 2654556160 TRANS_AUTOMAN_INPUT : 1;
+SIG_VALTYPE_ 2654572544 TRANS_RANGE_SWITCH_POSITION : 1;
+SIG_VALTYPE_ 2654769152 DIAGNOSTIC1 : 1;
+SIG_VALTYPE_ 2654785536 DIAGNOSTIC2 : 1;
+SIG_VALTYPE_ 2654801920 DIAGNOSTIC3 : 1;
+SIG_VALTYPE_ 2654818304 DIAGNOSTIC4 : 1;
+SIG_VALTYPE_ 2654834688 DIAGNOSTIC5 : 1;
+SIG_VALTYPE_ 2654851072 DIAGNOSTIC6 : 1;
+SIG_VALTYPE_ 2654867456 DIAGNOSTIC7 : 1;
+SIG_VALTYPE_ 2654883840 DIAGNOSTIC8 : 1;
+SIG_VALTYPE_ 2654900224 DIAGNOSTIC9 : 1;
+SIG_VALTYPE_ 2654916608 DIAGNOSTIC10 : 1;
+SIG_VALTYPE_ 2654932992 DIAGNOSTIC11 : 1;
+SIG_VALTYPE_ 2654949376 DIAGNOSTIC12 : 1;
+SIG_VALTYPE_ 2654965760 DIAGNOSTIC13 : 1;
+SIG_VALTYPE_ 2654982144 DIAGNOSTIC14 : 1;
+SIG_VALTYPE_ 2654998528 DIAGNOSTIC15 : 1;
+SIG_VALTYPE_ 2655014912 DIAGNOSTIC16 : 1;
+SIG_VALTYPE_ 2655031296 DIAGNOSTIC17 : 1;
+SIG_VALTYPE_ 2655047680 DIAGNOSTIC18 : 1;
+SIG_VALTYPE_ 2655064064 DIAGNOSTIC19 : 1;
+SIG_VALTYPE_ 2655080448 DIAGNOSTIC20 : 1;
+SIG_VALTYPE_ 2655096832 ADV_LAUNCH_INPUT : 1;
+SIG_VALTYPE_ 2655162368 ADV_AT_1D1 : 1;
+SIG_VALTYPE_ 2655178752 ADV_AT_1D2 : 1;
+SIG_VALTYPE_ 2655195136 ADV_AT_1D3 : 1;
+SIG_VALTYPE_ 2655211520 ADV_AT_1D4 : 1;
+SIG_VALTYPE_ 2655293440 ADV_AT_2D1 : 1;
+SIG_VALTYPE_ 2655309824 ADV_AT_2D2 : 1;
+SIG_VALTYPE_ 2658963456 TRANS_LINEPRESSUREPSIACTUAL : 1;

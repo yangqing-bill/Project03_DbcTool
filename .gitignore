@@ -1,0 +1,29 @@
+# Qt Creator 相关
+*.pro.user
+*.user
+*-build-*
+build-*
+Build/
+
+# 编译输出文件
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.log
+
+# IDE 相关
+.idea/
+*.swp
+
+# 操作系统
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package CanMessage;
+
+message Signal {
+    string name = 1;
+    double physical_value = 2;
+    string unit = 3;
+    int64 raw_value = 4;
+}
+
+message CanFrame {
+    uint32 message_id = 1;
+    string message_name = 2;
+    repeated Signal signals = 3;
+}

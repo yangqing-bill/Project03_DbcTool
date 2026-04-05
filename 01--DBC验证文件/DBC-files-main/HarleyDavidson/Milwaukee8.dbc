@@ -1,0 +1,81 @@
+VERSION "0.2"
+
+
+NS_ :
+  BA_
+  BA_DEF_
+  BA_DEF_DEF_
+  BA_DEF_DEF_REL_
+  BA_DEF_REL_
+  BA_DEF_SGTYPE_
+  BA_REL_
+  BA_SGTYPE_
+  BO_TX_BU_
+  BU_BO_REL_
+  BU_EV_REL_
+  BU_SG_REL_
+  CAT_
+  CAT_DEF_
+  CM_
+  ENVVAR_DATA_
+  EV_DATA_
+  FILTER
+  NS_DESC_
+  SGTYPE_
+  SGTYPE_VAL_
+  SG_MUL_VAL_
+  SIGTYPE_VALTYPE_
+  SIG_GROUP_
+  SIG_TYPE_REF_
+  SIG_VALTYPE_
+  VAL_
+  VAL_TABLE_
+
+
+BS_:
+
+BU_: DBG DRIVER IO MOTOR SENSOR HL HR SW4WAY
+
+
+BO_ 1360 LeftHandle_550: 6 HL 
+  SG_ ClutchPressed: 0|1@1+ (1,0) [0|1] "" HL
+  SG_ Light_enum : 3|2@1+ (1,0) [0|2] "invisible unit" HL
+  SG_ Horn: 1|1@1+ (1,0) [0|1] "" HL
+  SG_ Pass: 2|1@1+ (1,0) [0|1] "" HL
+  SG_ Trip: 5|1@1+ (1,0) [0|1] "" HL
+  SG_ Voice: 8|1@1+ (1,0) [0|1] "" HL
+  SG_ Switch_4_Way: 24|5@1+ (1,0) [0|32] "Four Way Switch" SW4WAY 
+  SG_ Cruise_3_Way: 40|5@1+ (1,0) [0|32] "" HL
+
+BO_ 1392 RightHandle_570: 6 HR 
+  SG_ Starter: 1|1@1+ (1,0) [0|1] "" HL
+  SG_ Ignition: 3|1@1+ (1,0) [0|1] "" HL
+  SG_ Indicator_Left: 5|1@1+ (1,0) [0|1] "" HL
+  SG_ Indicator_Right: 4|1@1+ (1,0) [0|1] "" HL
+  SG_ Brake: 7|1@1+ (1,0) [0|1] "" HR
+  SG_ Info: 8|1@1+ (1,0) [0|1] "(i)" HR
+  SG_ AntiHazardFlasher: 14|1@1+ (1,0) [0|1] "hazard-warning signal flasher" HR
+  SG_ Switch_4_Way: 24|5@1+ (1,0) [0|32] "Four Way Switch" SW4WAY  
+  SG_ PTT_3_Way: 32|5@1+ (1,0) [0|32] "3 Way Switch" SW4WAY  
+   
+BO_ 1328 Unknown_530: 8 IO
+  SG_ Perhaps_Brake_Switch_Rear: 18|1@1+ (1,0) [0|1] "?Brake Rear?" IO
+  
+CM_ BU_ HR "Right Handle with Buttons";
+CM_ BU_ HL "Left Handle with Buttons";
+
+CM_ "This is a comment. All data is not relyable! ";
+
+BA_DEF_ "BusType" STRING ;
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 0;
+BA_DEF_ SG_ "FieldType" STRING ;
+
+BA_DEF_DEF_ "BusType" "CAN";
+BA_DEF_DEF_ "FieldType" "";
+BA_DEF_DEF_ "GenMsgCycleTime" 0;
+
+VAL_ 1360 Light_enum 0 "None" 2 "LowBeam" 1 "HighBeam";
+VAL_ 1360 Switch_4_Way 0 "None" 1 "Up" 2 "Left" 4 "Push" 8 "Right" 16 "Down" ;
+VAL_ 1392 Switch_4_Way 0 "None" 1 "Up" 2 "Left" 4 "Push" 8 "Right" 16 "Down" ;
+VAL_ 1360 Cruise_3_Way 0 "None" 2 "Res/+" 8 "Push" 16 "Set/-" ;
+VAL_ 1392 PTT_3_Way 0 "None" 1 "SQ+" 8 "SQ-" 4 "Push" ;
