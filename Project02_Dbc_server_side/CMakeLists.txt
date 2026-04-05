@@ -12,6 +12,7 @@ set(PROTO_FILES ${CMAKE_CURRENT_SOURCE_DIR}/canframe.proto)
 
 qt_add_protobuf(ProtoMessages
     GENERATE_PACKAGE_SUBFOLDERS
+    GENERATE_ALIASES
     PROTO_FILES ${PROTO_FILES}
 )
 
